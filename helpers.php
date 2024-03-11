@@ -41,6 +41,6 @@ function loadPartial($name)
   if (file_exists($partialPath)) {
     require $partialPath;
   } else {
-    echo "Partial '{$name} not found!'"
+    echo "Partial '{$name} not found!'";
   }
 }
